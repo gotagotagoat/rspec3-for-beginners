@@ -1,4 +1,5 @@
 class MessageFilter
-  def
+  def initialize(word)
+    @word = word
   end
 end
