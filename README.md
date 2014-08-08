@@ -1,5 +1,6 @@
 # RSpecの練習
-ついでに Github の練習も兼ねてます。
+個人的なRSpecの練習です。  
+ついでに Github の練習も兼ねてます。  
 
 ### 参考URL:
 * [RSpecの入門とその一歩先へ ～RSpec 3バージョン～ - Qiita](http://qiita.com/jnchito/items/624f6d5023c279046a1c)
