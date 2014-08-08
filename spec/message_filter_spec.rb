@@ -10,5 +10,4 @@ RSpec.describe MessageFilter do
     filter = MessageFilter.new('foo')
     expect(filter.detect?('hello, world')).to eq false
   end
-
 end
