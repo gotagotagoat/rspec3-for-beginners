@@ -10,6 +10,9 @@ RSpec.describe MessageFilter do
   context 'with argument "foo"' do
     subject { MessageFilter.new('foo') }
     it_behaves_like 'MessageFilter with argument "foo"'
+    it 'ng_words should not be empty' do
+      expect(subject.ng_words.empty?).to eq false
+    end
   end
 
   context 'with argument "foo", "bar"' do
@@ -17,4 +20,6 @@ RSpec.describe MessageFilter do
     it { is_expected.to be_detect('hello from bar') }
     it_behaves_like 'MessageFilter with argument "foo"'
   end
+
+
 end
